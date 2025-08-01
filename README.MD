@@ -42,12 +42,12 @@ print_r($loc->searchVillage("Bidudu"));
 ### 📚 API Reference
 
 Method	Description \
-<b>getProvinces()</b>	Returns a list of all provinces in Rwanda \
-<b>getDistricts($province)</b>	Returns districts under a given province
-<b>getSectors($province, $district)</b>	Returns sectors in a given district
-<b>getCells($province, $district, $sector)</b>	Returns cells under a sector \
-<b>getVillages($province, $district, $sector, $cell)</b>	Returns villages under a cell
-<b>searchVillage($villageName)</b>	Searches for a village by name and returns matching results (anywhere in Rwanda)
+<i>getProvinces()</i>	Returns a list of all provinces in Rwanda \
+<i>getDistricts($province)</i>	Returns districts under a given province
+<i>getSectors($province, $district)</i>	Returns sectors in a given district
+<i>getCells($province, $district, $sector)</i>	Returns cells under a sector \
+<i>getVillages($province, $district, $sector, $cell)</i>	Returns villages under a cell
+<i>searchVillage($villageName)</i>	Searches for a village by name and returns matching results (anywhere in Rwanda)
 
 <i>⚠️ Notes
 All names (province, district, etc.) are case-insensitive but must be spelled correctly.</i>
