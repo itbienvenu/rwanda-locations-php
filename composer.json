@@ -1,6 +1,6 @@
 {
   "name": "itbienvenu/rwanda-locations",
-  "description": "A PHP package to access Rwanda location data (province, district, sector, cell, village).",
+  "description": "A PHP package to access Rwanda location data (province, district, sector, cell, village). Usage documentation is available on GitHub.",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -9,12 +9,30 @@
       "email": "mwimulebienvenu05@gmail.com"
     }
   ],
+  "require": {
+    "php": ">=7.4"
+  },
   "autoload": {
     "psr-4": {
       "RwandaLocations\\": "src/RwandaLocations/"
     }
   },
-  "require": {},
   "minimum-stability": "stable",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "homepage": "https://github.com/itbienvenu/rwanda-locations-php",
+  "support": {
+    "issues": "https://github.com/itbienvenu/rwanda-locations-php/issues",
+    "source": "https://github.com/itbienvenu/rwanda-locations-php"
+  },
+  "keywords": [
+    "rwanda",
+    "locations",
+    "province",
+    "district",
+    "sector",
+    "village",
+    "geo",
+    "php",
+    "composer"
+  ]
 }
