@@ -4,7 +4,7 @@ A lightweight PHP library to get Rwanda's administrative regions, including prov
 📦 Installation
 If using with Composer:
 ```
-composer require itbienvenu/rwanda-locations
+composer require itbienvenu/rwanda-locations:^1.0
 ```
 
 ### 🗂️ Namespace
