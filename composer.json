@@ -1,0 +1,20 @@
+{
+  "name": "itbienvenu/rwanda-locations",
+  "description": "A PHP package to access Rwanda location data (province, district, sector, cell, village).",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MWIMULE Bienvenu",
+      "email": "mwimulebienvenu05@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RwandaLocations\\": "src/RwandaLocations/"
+    }
+  },
+  "require": {},
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
